@@ -1,0 +1,34 @@
+PODS:
+  - Alamofire (4.5.1)
+  - CPF-CNPJ-Validator (1.0.0)
+  - CreditCardValidator (0.4)
+  - Money (2.0.1):
+    - ValueCoding (~> 2)
+  - ValueCoding (2.2.0)
+
+DEPENDENCIES:
+  - Alamofire (~> 4.5)
+  - CPF-CNPJ-Validator (~> 1.0)
+  - CreditCardValidator (~> 0.4)
+  - Money (from `https://github.com/danthorpe/Money.git`, branch `MNY-79_updates_for_xcode_9`)
+
+EXTERNAL SOURCES:
+  Money:
+    :branch: MNY-79_updates_for_xcode_9
+    :git: https://github.com/danthorpe/Money.git
+
+CHECKOUT OPTIONS:
+  Money:
+    :commit: ed9ae110eebb86f681423e26bfda4a4a4839b0e9
+    :git: https://github.com/danthorpe/Money.git
+
+SPEC CHECKSUMS:
+  Alamofire: 2d95912bf4c34f164fdfc335872e8c312acaea4a
+  CPF-CNPJ-Validator: abcabc867c445a4a83d908b0c8d5b8d6c0060031
+  CreditCardValidator: 9f0814dd61682c004071a250d89327ca83514a48
+  Money: 3babd4c04fbf3251d30abe374a64fa8fed29ec64
+  ValueCoding: dd37df7966fb14d5238c19e2f88c86ac4064ef96
+
+PODFILE CHECKSUM: 7fb881d294483474f3a3ed47bf0fae372b031088
+
+COCOAPODS: 1.3.1
